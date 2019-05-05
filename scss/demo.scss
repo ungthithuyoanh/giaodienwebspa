@@ -1,0 +1,1865 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+}
+.widget-section{
+	width: 100%!important;
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+	background: #fafafa;
+}
+.widget-element {
+	position: absolute;
+	z-index: 1;
+}
+.ladi-widget-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#head{
+	display: block;
+	background-image: url("../images/header.jpg");
+	background-color: rgba(255,255,255,1);
+	background-origin: content-box;
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: top left;
+	background-repeat: no-repeat;
+	#logo{
+		display: block;
+	}
+	#name{
+		display: block;
+		.widget-content{
+			font-family: 'Tinos';
+			// color: rgba(63,40,3,1.00);
+			color: #1C1C1C;
+			font-weight: 700;
+			line-height: 68px;
+		}
+	}
+	#head-body1{
+		display: block;
+		.widget-content{
+			font-family: 'Open Sans';
+			// color: rgba(63,40,3,1.00);
+			color: black;
+			font-weight: 400;
+			line-height: 24px;
+		}
+	}
+	#button_h{
+		display: table!important;
+		text-align: center;
+		font-size: 20px;
+		border-radius: 0px;
+	    cursor: pointer;//con trỏ chuột
+	    background-color: rgba(104,207,2,1);
+	    &:hover{
+	    	background-color: #00FF00;
+	    }
+	    .widget-content{
+	    	font-family: 'Open Sans';
+	    	color: rgba(63,40,3,1.00);
+	    	font-weight: 700;
+	    	line-height: 46px;
+	    }
+	}
+}
+#body_lt{
+	display: block;
+	// background-color: #EEEEEE;
+	background-color: rgba(255,255,255,0);
+	#hinhanh{
+		display: block;
+		.widget-content{
+			background-image: url("../images/giam-beo.jpg");			
+		    // background-color: rgba(189,189,189,1);
+		    background-origin: content-box;
+		    background-size: auto 100%;
+		    background-attachment: scroll;
+		    background-position: top left;
+		    background-repeat: no-repeat;
+		    box-shadow: 5px 5px 28px rgba(191,191,191,0.52);
+		    width: 100%;
+		    height: 100%;
+		    &:hover{
+		    	transform: scale(1.08);
+		    }
+		}
+	}
+	#body_1{
+		display: block;
+		.widget-content{
+			font-family: 'Tinos',serif;
+			color: rgba(101,60,108,1);
+			font-weight: 700;
+			line-height: 44px;
+		}
+	}
+	#body_2{
+		display: block;
+		.widget-content{
+			font-family: 'Tinos',serif;
+			color: rgba(215,50,143,1);
+			font-weight: 700;
+			line-height: 40px;
+		}
+	}
+	#body_3{
+		display: block;
+		.widget-content{
+			font-family: 'Tinos',serif;
+			line-height: 20px;
+			list-style: none;
+			padding: 0;
+			li::before{
+				width: 23px;
+				height: 23px;
+				margin-right: 14px;
+				content: url("../images/angle-right-solid.svg");
+				background-repeat: no-repeat;
+				position: relative;
+				top: 0px;
+				left: 0;
+				float: left;
+				clear: left;
+			}
+			
+		}
+	}
+}
+#quang_ba{
+	display: block;
+	background-color: rgba(245,245,245,1);
+	#QB_1{
+		display: block;
+		&:hover{
+			transform: scale(1.08);
+		}
+		.widget-content{
+			background-color: rgba(255,255,255,0);
+			#spa_1{
+				display: block;
+				div.widget-content{
+					background-color: rgba(255,255,255,1);
+					border-radius: 30px;
+					border-width: 2px;
+					border-style: dotted;
+					border-color: rgba(242,126,126,1);
+					width:100%;	
+					height: 100%;
+					#mo_ta{
+						display: block;
+						.widget-content{
+							font-family: 'Roboto',sans-serif;
+							color: rgba(33,33,33,1);
+							font-weight: 400;
+							line-height: 20px;
+						}
+					}
+					#tieu_de{
+						display: block;
+						.widget-content{
+							font-family: 'Tinos',serif;
+							color: rgba(117,117,117,1);
+							font-weight: 700;
+							line-height: 34px;
+						}
+					}
+				}
+			}
+			#spa_2{
+				display: block;
+				&:hover{
+					transform: rotate(360deg);
+					transition: 8s;
+				}
+				.widget-content{
+					width:100%;
+					height: 100%;
+					border-radius: 110px;
+					border-width: 7px;
+					border-style: solid;
+					border-color: rgba(245,213,231,1);
+					
+					background-image: url(../images/mat.png);
+					background-color: rgba(255,255,255,1);
+					font-family: 'Open Sans',sans-serif;
+					color: rgba(0,0,0,1);
+					background-origin: content-box;
+					background-size: auto 100%;
+					background-attachment: scroll;
+					background-position: top left;
+					background-repeat: no-repeat;
+				}
+			}
+		}
+	}
+	#QB_2{
+		display: block;
+		&:hover{
+			transform: scale(1.08);
+		}
+		.widget-content{
+			background-color: rgba(255,255,255,0);
+			#spa_21{
+				display: block;
+				div.widget-content{
+					background-color: rgba(255,255,255,1);
+					border-radius: 30px;
+					border-width: 2px;
+					border-style: dotted;
+					border-color: rgba(242,126,126,1);
+					width:100%;	
+					height: 100%;
+					#mo_ta{
+						display: block;
+						.widget-content{
+							font-family: 'Roboto',sans-serif;
+							color: rgba(33,33,33,1);
+							font-weight: 400;
+							line-height: 20px;
+						}
+					}
+					#tieu_de{
+						display: block;
+						.widget-content{
+							font-family: 'Tinos',serif;
+							color: rgba(117,117,117,1);
+							font-weight: 700;
+							line-height: 34px;
+						}
+					}
+				}
+			}
+			#spa_22{
+				display: block;
+				&:hover{
+					transform: rotate(360deg);
+					transition: 8s;
+				}
+				.widget-content{
+					width:100%;
+					height: 100%;
+					border-radius: 110px;
+					border-width: 7px;
+					border-style: solid;
+					border-color: rgba(245,213,231,1);
+					
+					background-image: url("../images/mun.png");
+					background-color: rgba(255,255,255,1);
+					font-family: 'Open Sans',sans-serif;
+					color: rgba(0,0,0,1);
+					background-origin: content-box;
+					background-size: auto 100%;
+					background-attachment: scroll;
+					background-position: top left;
+					background-repeat: no-repeat;
+				}
+			}
+		}
+	}
+	#QB_3{
+		display: block;
+		&:hover{
+			transform: scale(1.08);
+		}
+		.widget-content{
+			background-color: rgba(255,255,255,0);
+			#spa_31{
+				display: block;
+				div.widget-content{
+					background-color: rgba(255,255,255,1);
+					border-radius: 30px;
+					border-width: 2px;
+					border-style: dotted;
+					border-color: rgba(242,126,126,1);
+					width:100%;	
+					height: 100%;
+					#mo_ta{
+						display: block;
+						.widget-content{
+							font-family: 'Roboto',sans-serif;
+							color: rgba(33,33,33,1);
+							font-weight: 400;
+							line-height: 20px;
+						}
+					}
+					#tieu_de{
+						display: block;
+						.widget-content{
+							font-family: 'Tinos',serif;
+							color: rgba(117,117,117,1);
+							font-weight: 700;
+							line-height: 34px;
+						}
+					}
+				}
+			}
+			#spa_32{
+				display: block;
+				&:hover{
+					transform: rotate(360deg);
+					transition: 8s;
+				}
+				.widget-content{
+					width:100%;
+					height: 100%;
+					border-radius: 110px;
+					border-width: 7px;
+					border-style: solid;
+					border-color: rgba(245,213,231,1);
+					
+					background-image: url(../images/giamcan.png);
+					background-color: rgba(255,255,255,1);
+					font-family: 'Open Sans',sans-serif;
+					color: rgba(0,0,0,1);
+					background-origin: content-box;
+					background-size: auto 100%;
+					background-attachment: scroll;
+					background-position: top left;
+					background-repeat: no-repeat;
+				}
+			}
+		}
+	}
+}
+#lien_he{
+	display: block;
+	background-color: rgba(255,255,255,0);
+	#hinh_anh{
+		display: block;
+		.widget-content{
+			background-image: url("../images/spa4.jpg");
+			background-origin: content-box;
+			background-size: auto 100%;
+			background-attachment: scroll;
+			background-position: top left;
+			background-repeat: no-repeat;
+			box-shadow: 5px 5px 17px rgba(191,191,191,0.41);
+			width: 100%;
+			height: 100%;
+			&:hover{
+				transform: scale(1.08);
+			}
+		}
+	}
+	#tieu_de{
+		display: block;
+		.widget-content{		 
+			#tde_1{
+				display: block;
+				.widget-content{
+					color: rgba(101,60,108,1);
+					font-weight: 700;
+					line-height: 44px;
+				}
+			}
+			#tde_2{
+				display: block;
+				.widget-content{
+					color: rgba(215,50,143,1);
+					font-weight: 700;
+					line-height: 34px;
+				}
+			}
+		}
+	}
+	#mo_ta_head{
+		display: block;	
+		.widget-content{
+			font-family: "Open Sans", sans-serif;
+			color: rgba(0,0,0,1);
+			font-weight: 400;
+			line-height: 22px;
+		}
+	}
+	#lh_mo_ta{
+		display: block;
+		.widget-content{
+			font-family: 'Tinos',serif;
+			line-height: 20px;
+			list-style: none;
+			padding: 0;
+			li::before{
+				width: 25px;
+				height: 25px;
+				margin-right: 0px;
+				font-size: 32px;
+				// content: url("../images/angle-right-solid.svg");
+				content: ".";
+				background-repeat: no-repeat;
+				position: relative;
+				top: -10px;
+				left: 0px;
+				float: left;
+				clear: left;
+			}			
+		}
+	}
+	#dat_cho{
+		background-color: rgba(166,95,159,1);
+		text-align: center;
+		cursor: pointer;
+		text-decoration: none;
+		&:hover{
+			background-color: #663399;
+		}
+		.widget-content{
+			color: #ffffff;
+			font-weight: 400;
+		}
+	}
+}
+#hieu_qua{
+	display: block;
+	background-image: url(../images/bg-spa4.jpg);
+	background-color: rgba(101,71,104,0.76);
+	background-origin: content-box;
+	background-size: auto 100%;
+	background-attachment: scroll;
+	background-position: top left;
+	background-repeat: no-repeat;
+	#video{
+		&:hover{
+			transform: scale(1.08);
+		}
+		.widget-content{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	#tieu_de{
+		.widget-content{
+			color: rgba(255,255,255,1);
+			font-weight: 700;
+			line-height: 40px;
+		}
+	}
+	#mo_ta{
+		.widget-content{    		
+			#mta_1{
+				.widget-content{
+					counter-reset: number;	
+					h6::before {
+						counter-increment: number;
+						content: counter(number) ;				    	
+						background-color: rgba(101,71,104,0.7);
+						font-size: 21px;
+						color: white;
+						padding: 5px 12px;		
+					}
+					h6{		
+						color: rgba(255,255,255,1);
+						font-weight: 400;
+						padding: 0px;
+						&:hover{
+							transform: rotateY(360deg);
+							transition: 5s;
+						}	
+					}
+				}
+			}			
+		}
+	}
+	#ghi_chu{
+		.widget-content{
+			color: rgba(255,255,255,1);
+			font-weight: 400;
+			line-height: 17px;
+			font-style: italic;
+		}
+	}
+}
+#cau_chuyen{
+	display: block;
+	background-color: rgba(255,255,255,0);
+	#hinh_anh{
+		background-image: url("../images/feature.jpg");
+		background-color: rgba(189,189,189,1);
+		background-origin: content-box;
+		background-size: cover;
+		background-attachment: scroll;
+		background-position: top center;
+		background-repeat: no-repeat;
+		box-shadow: 5px 5px 17px rgba(191,191,191,0.25);
+		&:hover{
+			transform: scale(1.08);
+		}
+	}
+	#chu_de{
+		display: block;
+		.widget-content{
+			font-family: 'Tinos',serif;
+			color: rgba(101,60,108,1);
+			font-weight: 700;
+			line-height: 40px;
+		}
+	}
+	#line{
+		display: block;
+		.widget-content{
+			width: 100%;
+			height: 2px;
+			border-top-width: 1px;
+			border-style: solid;
+			border-color: rgba(0,0,0,1);
+			margin-top: 12px;
+		}
+	}
+	#tieu_de{
+		.widget-content{
+			font-family: 'Tinos',serif;
+			color: rgba(215,50,143,1);
+			font-weight: 700;
+			line-height: 28px;
+		}
+	}
+	#mo_ta{
+		.widget-content{
+			font-family: 'Roboto',sans-serif;
+			color: rgba(0,0,0,1);
+			font-weight: 400;
+			line-height: 20px;
+			font-size: 14px;
+			text-align: left;
+
+		}
+	}
+}
+#footer{
+	display: block;
+	background-image: url("../images/bg-footer.png");
+	background-color: rgba(255,255,255,0.2);
+	background-origin: content-box;
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: top center;
+	background-repeat: no-repeat;
+	#form_dk{
+		display: block;
+		#head_dk{
+			top: 0px;
+			left:0.1%;
+			width: 99%;
+			height: 75px;		
+			background-color: rgba(215,50,143,1);
+			box-shadow: 0px 8px 10px rgba(28,28,28,0.13);
+			border-top-left-radius: 13px;
+			border-top-right-radius: 13px;
+			.widget-content{
+				padding: 25px;
+				color: rgba(255,255,255,1);
+				font-weight: 700;
+				line-height: 28px;
+			}
+		}
+		#body_dk{
+			display: block;
+			.widget-content{
+				width: 100%;
+				height: 100%;
+				background-color: rgba(255,255,255,0.2);
+				color: rgba(0,0,0,1);
+				box-shadow: 0px 8px 15px rgba(28,28,28,0.13);
+				border-bottom-right-radius: 13px;
+				border-bottom-left-radius: 13px;
+				#form{
+					display: block;
+					.widget{
+						background-color: rgba(255,255,255,0.2);
+						color: rgba(0,0,0,1);
+						.widget-content{
+							border-radius: 14px;
+							border-width: 2px;
+							border-style: solid;
+							border-color: rgba(209,209,209,1);
+							background-color: rgba(255,255,255,1);
+							color: rgba(74,74,74,1);
+							padding: 8px 5px;
+						}
+					}
+				}
+				#button{
+					cursor: pointer;
+					z-index: 2;
+					background-color: rgba(215,50,143,1);
+					border-radius: 10px;
+					text-align: center;	
+					&:hover{
+						transform: scale(1.02);
+						background-color: #FF0000;
+					}
+					.lhe{						
+						color: #ffffff;
+						font-weight: 700;
+						line-height: 48px;
+					}
+				}
+			}
+		}
+	}
+	#gioi_thieu{
+		#tieu_de{
+			top: 0px;
+			left: 0.01%;
+			padding: 0px;
+			width: 273px;
+			height: 34px;
+			.widget-content{
+				font-family: 'Tinos',serif;
+				color: rgba(255,255,255,1);
+				font-weight: 700;
+				line-height: 34px;
+			}
+		}
+		#mo_ta{
+			top: 59px;
+			left: 0.01%;
+			padding: 0px;
+			width: 273px;
+			height: 228px;
+			.widget-content{
+				font-family: "Open Sans", sans-serif;
+				color: rgba(255,255,255,1);
+				font-weight: 400;
+				line-height: 19px;
+			}
+		}
+		#sdt{
+			top: 328px;
+			left: 3px;
+			width: 216px;
+			height: 67px;
+			background-color: rgba(215,50,143,1);
+			&:hover{
+				transform: scale(1.02);
+				background-color: #FF0000;
+			}
+			.widget-content{
+				width: 100%;
+				height: 100%;
+				font-family: "Open Sans", sans-serif;
+				color: rgba(255,255,255,1);
+				font-weight: 700;
+				line-height: 28px;
+				font-size: 24px;
+				text-align: left;
+				padding: 19px 0px 0px 11px;
+				i{
+					height: 30px;
+				}
+			}
+		}		
+	}
+	#tieu_de_ck{
+		.widget-content{
+			font-family: 'Tinos',serif;
+			color: rgba(255,255,255,1);
+			font-weight: 700;
+			line-height: 34px;
+		}
+	}
+	#mo_ta_ck{
+		.widget-content{
+			font-family: 'Open Sans',sans-serif;
+			color: rgba(255,255,255,1);
+			font-weight: 400;
+			line-height: 26px;
+			letter-spacing: 0px;
+		}
+	}
+	#tieu_de_giam{
+		.widget-content{
+			font-family: 'Tinos',serif;
+			color: rgba(255,255,255,1);
+			font-weight: 700;
+			line-height: 44px;
+		}
+	}
+	#mo_ta_giam{
+		.widget-content{
+			font-family: 'Open Sans',sans-serif;
+			color: rgba(255,255,255,1);
+			font-weight: 400;
+			line-height: 24px;
+			letter-spacing: 0px;
+		}
+	}
+	#tieu_de_gia{
+		.widget-content{
+			font-family: 'Open Sans',sans-serif;
+			color: rgba(255,255,255,1);
+			font-weight: 400;
+			line-height: 24px;
+			letter-spacing: 0px;
+		}
+	}
+	#gia{
+		.widget-content{
+			font-family: 'Tinos',serif;
+			color: rgba(255,255,255,1);
+			font-weight: 700;
+			line-height: 44px;
+		}
+	}
+	#mo_ta_gia{
+		.widget-content{
+			font-family: 'Open Sans',sans-serif;
+			color: rgba(255,255,255,1);
+			font-weight: 400;
+			line-height: 24px;
+			letter-spacing: 0px;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	#copyright{
+		.widget-content{
+			font-family: 'Open Sans',sans-serif;
+			// color: rgba(255,255,255,1);
+			color: black;
+			font-weight: 400;
+			line-height: 24px;
+			letter-spacing: 0px;
+		}
+	}
+}
+@media (min-width: 800px){
+	#head{
+		height: 652px;
+		#logo{
+			top: 171px;
+			left: 71.5%;
+			width: 49px;
+			height: 49px;	
+		}
+		#name{
+			top: 214px;
+			left: 66.2%;
+			padding: 0px;
+			width: 328px;
+			height: 136px;
+			.widget-content{
+				font-size: 64px;
+				text-align: left;
+			}
+		}
+		#head-body1{
+			top: 363px;
+			left: 66.2%;
+			padding: 0px;
+			width: 325px;
+			height: 72px;
+			.widget-content{
+				font-size: 18px;
+				text-align: left;
+			}
+		}
+		#button_h{
+			top: 466px;
+			left: 66.2%;
+			padding: 0px;
+			width: 160px;
+			height: 43px;
+			.widget-content{
+				font-size: 16px;
+				text-align: center;
+			}
+		}
+	}
+	#body_lt{
+		height: 456px;
+		#hinhanh{
+			top: 65px;
+			left: 53%;
+			width: 444px;
+			height: 306px;
+		}
+		#body_1{
+			top: 72px;
+			left: 0px;
+			padding: 0px;
+			width: 357px;
+			height: 44px;
+			.widget-content{
+				font-size: 40px;
+				text-align: left;
+			}
+		}
+		#body_2{
+			top: 116px;
+	    	// left: 0px;
+	    	padding: 0px;
+	    	width: 464px;
+	    	height: 80px;	
+	    	.widget-content{
+	    		font-size: 36px;
+	    		text-align: left;
+	    	}
+	    }
+	    #body_3{
+	    	top: 240px;
+	    	left: 0px;
+	    	width: 485px;
+	    	height: 101px;
+	    	.widget-content{
+	    		text-align: left;
+	    		font-size: 18px;
+	    		li{
+	    			margin-bottom: 7px;
+	    		}
+	    	}
+	    }
+	}
+	#quang_ba{
+		height: 610px;
+		#QB_1{
+			top: 72px;
+			left: 68%;
+			width: 305px;
+			height: 400px;
+			#spa_1{
+				top: 84px;
+				left: 0.01%;
+				width: 305px;
+				height: 376px;
+				#mo_ta{
+					top: 236px;
+					left: 35px;
+					padding: 0px;
+					width: 238px;
+					height: 140px;
+					.widget-content{
+						font-size: 14px;
+						text-align: center;
+					}
+				}
+				#tieu_de{
+					top: 170px;
+					left: 67px;
+					padding: 0px;
+					width: 169px;
+					height: 34px;
+					.widget-content{
+						font-size: 30px;
+						text-align: center;
+					}
+				}
+			}
+			#spa_2{
+				top: 0px;
+				left: 40px;
+				width: 229px;
+				height: 229px;
+				.widget-content{
+
+				}
+			}
+		}
+		#QB_2{
+			top: 72px;
+			left: 327px;
+			width: 305px;
+			height: 400px;
+			#spa_21{
+				top: 84px;
+				left: 1px;
+				width: 305px;
+				height: 376px;
+				#mo_ta{
+					top: 236px;
+					left: 35px;
+					padding: 0px;
+					width: 238px;
+					height: 140px;
+					.widget-content{
+						font-size: 14px;
+						text-align: center;
+					}
+				}
+				#tieu_de{
+					top: 170px;
+					left: 67px;
+					padding: 0px;
+					width: 189px;
+					height: 34px;
+					.widget-content{
+						font-size: 30px;
+						text-align: center;
+					}
+				}
+			}
+			#spa_22{
+				top: 0px;
+				left: 40px;
+				width: 229px;
+				height: 229px;
+			}
+		}
+		#QB_3{
+			top: 72px;
+			left: -2px;
+			width: 305px;
+			height: 400px;
+			#spa_31{
+				top: 84px;
+				left: 1px;
+				width: 305px;
+				height: 376px;
+				#mo_ta{
+					top: 236px;
+					left: 35px;
+					padding: 0px;
+					width: 238px;
+					height: 140px;
+					.widget-content{
+						font-size: 14px;
+						text-align: center;
+					}
+				}
+				#tieu_de{
+					top: 170px;
+					left: 67px;
+					padding: 0px;
+					width: 169px;
+					height: 34px;
+					.widget-content{
+						font-size: 30px;
+						text-align: center;
+					}
+				}
+			}
+			#spa_32{
+				top: 0px;
+				left: 40px;
+				width: 229px;
+				height: 229px;
+				.widget-content{
+
+				}
+			}
+		}
+	}
+	#lien_he{
+		height: 498px;
+		#hinh_anh{
+			top: 57px;
+			left: 47.4%;
+			width: 510px;
+			height: 369px;
+		}
+		#tieu_de{
+			top: 63px;
+			left: -2px;
+			width: 369px;
+			height: 74px;
+			.widget-content{		 
+				#tde_1{
+					top: 0px;
+					left: 0.1%;
+					padding:0px;
+					width: 365px;
+					height: 44px;
+					.widget-content{
+						font-size: 40px;
+						text-align: left;
+					}
+				}
+				#tde_2{
+					top: 40px;
+					left: 3%;
+					padding: 0px;
+					width: 356px;
+					height: 34px;
+					.widget-content{
+						font-size: 30px;
+						text-align: left;
+					}
+				}
+			}
+		}
+		#mo_ta_head{
+			top: 163px;
+			left: 0px;
+			padding: 0px;
+			width: 348px;
+			height: 22px;	
+			.widget-content{
+				font-size: 18px;
+				text-align: left;
+			}
+		}
+		#lh_mo_ta{
+			top: 194px;
+			left: 0px;
+			width: 413px;
+			height: 130px;
+			.widget-content{
+				text-align: left;
+				font-size: 16px;
+				li{
+					margin-bottom: 5px;
+				}
+			}
+		}
+		#dat_cho{
+			top: 372px;
+			left: 0;
+			padding: 0px;
+			width: 189px;
+			height: 56px;
+			.widget-content{
+				font-size: 17px;
+				text-align: center;
+				line-height: 56px;
+			}
+		}
+	}
+	#hieu_qua{
+		height: 608px;
+		#video{
+			top: 139px;
+			left: 52.5%;
+			width: 457px;
+			height: 377px;
+		}
+		#tieu_de{
+			top: 87px;
+			left: 0%;
+			width: 409px;
+			height: 80px;
+			.widget-content{
+				font-size: 36px;
+				text-align: left;
+			}
+		}
+		#mo_ta{
+			top: 182px;
+			left: 0%;
+			width: 474px;
+			height: 280px;
+			.widget-content{
+				#mta_1{
+					width:100%;
+					height: 100%;
+					.widget-content{	 	
+						h6::before {	   
+							width: 33px;
+							line-height: 44px; 								    	
+							margin-right: 12px;					    			    	
+						}
+						h6{
+							font-size: 18px;
+							width: 400px;
+							height: 33px;
+							line-height: 33px;						
+							margin-top: 16px;					    
+						}
+					}
+				}		
+			}
+		}
+		#ghi_chu{
+			top: 496px;
+			left: 0%;
+			width: 384px;
+			height: 34px;
+			.widget-content{
+				font-size: 15px;
+				text-align: left;
+			}
+		}
+	}
+	#cau_chuyen{
+		height: 484px;
+		#hinh_anh{
+			top: 60px;
+			left: 0%;
+			width: 473px;
+			height: 350px;
+		}
+		#chu_de{
+			top: 93px;
+			left: 53%;
+			padding: 0px;
+			width: 355px;
+			height: 40px;
+			.widget-content{
+				font-size: 36px;
+				text-align: left;
+			}
+		}
+		#line{
+			top: 151px;
+			left: 53%;
+			width: 443px;
+			height: 25px;	
+		}
+		#tieu_de{
+			top: 183px;
+			left: 53%;
+			padding: 0px;
+			width: 353px;
+			height: 28px;
+			.widget-content{
+				font-size: 24px;
+				text-align: left;
+			}
+		}
+		#mo_ta{
+			top: 231px;
+			left: 53%;
+			width: 443px;
+			height: 160px;
+			.widget-content{
+			}
+		}
+	}
+	#footer{
+		height: 680px;
+		#form_dk{
+			top: 107px;
+			left: 32%;
+			width: 38%;
+			height: 435px;
+			#head_dk{
+				text-align: center;
+				.widget-content{
+					font-size: 24px;
+				}
+			}
+			#body_dk{
+				top: 74px;
+				left: 0.1%;
+				width: 99%;
+				height: 361px;
+				.widget-content{
+					#form{				
+						top: 31px;
+						left: 12.5%;
+						width: 286.765625px;
+						height: 208px;
+						.widget{
+							font-size: 14px;
+							.widget-element{
+								left: 0px;
+								width: 286px;
+								height: 51px;
+							}
+							#ho_ten{
+								top: 0px;
+							}
+							#email{
+								top: 78px;
+							}
+							#sdt{
+								top:155px;
+							}
+						}
+					}
+					#button{
+						top: 276px;
+						left: 25%;
+						padding: 0px;
+						width: 188px;
+						height: 48px;
+						.lhe{
+							font-size: 14px;
+							text-align: center;
+						}
+					}
+				}
+			}
+		}
+		#gioi_thieu{
+			top: 141px;
+			left: 72%;
+			width: 273px;
+			height: 395px;
+			#tieu_de{
+				.widget-content{
+					font-size: 30px;
+					text-align: left;
+				}
+			}
+			#mo_ta{
+				.widget-content{
+					font-size: 13px;
+					text-align: left;
+				}
+			}
+		}
+		#tieu_de_ck{
+			top: 143px;
+			left: 0%;
+			padding: 0px;
+			width: 285px;
+			height: 34px;
+			.widget-content{
+				font-size: 30px;
+				text-align: right;
+			}
+		}
+		#mo_ta_ck{
+			top: 191px;
+			left: 0px;
+			width: 285px;
+			height: 104px;
+			.widget-content{
+				font-size: 16px;
+				text-align: right;
+			}
+		}
+		#tieu_de_giam{
+			top: 329px;
+			left: 0%;
+			width: 285px;
+			height: 44px;
+			.widget-content{
+				font-size: 40px;
+				text-align: right;
+			}
+		}
+		#mo_ta_giam{
+			top: 373px;
+			left: 0%;
+			width: 285px;
+			height: 24px;
+			.widget-content{
+				font-size: 16px;
+				text-align: right;
+			}
+		}
+		#tieu_de_gia{
+			top: 411px;
+			left: 0%;
+			width: 285px;
+			height: 24px;		
+			.widget-content{
+				font-size: 14px;
+				text-align: right;
+			}
+		}
+		#gia{
+			top: 427px;
+			left: 0%;
+			width: 285px;
+			height: 44px;
+			.widget-content{
+				font-size: 40px;
+				text-align: right;
+			}
+		}
+		#mo_ta_gia{
+			top: 471px;
+			left: -1%;
+			width: 300px;
+			height: 24px;
+			.widget-content{
+				font-size: 16px;
+				text-align: right;
+			}
+		}
+		#copyright{
+			top: 582px;
+			left: 29%;
+			padding: 0px;
+			width: 480px;
+			height: 24px;
+			.widget-content{
+				font-size: 17px;
+				text-align: center;
+			}
+		}
+	}
+}
+@media (max-width: 799px){
+	// width: 100%;
+	#head{
+		height: 342px;
+		#logo{
+			top: 20px;
+			left: 43%;
+			width: 49px;
+			height: 49px;	
+		}
+		#name{
+			top: 79px;
+			left: 5%;
+			padding: 0px;
+			width: 328px;
+			height: 108px;
+			.widget-content{
+				font-size: 52px;
+				text-align: center;
+				line-height: 54px;
+			}
+		}
+		#head-body1{
+			top: 197px;
+			left: 5%;
+			padding: 0px;
+			width: 325px;
+			height: 72px;
+			.widget-content{
+				font-size: 18px;
+				text-align: center;
+			}
+		}
+		#button_h{
+			top: 279px;
+			left: 26%;
+			padding: 0px;
+			width: 160px;
+			height: 43px;
+			.widget-content{
+				font-size: 16spx;
+				text-align: center;
+			}
+		}
+	}
+	.container{
+		width: 375px;
+		margin: 0 auto;
+	}
+	#body_lt{
+		height: 600px;
+		#hinhanh{
+			top: 20px;
+			left: 2.5%;
+			width: 355px;
+			height: 306px;
+		}
+		#body_1{
+			top: 340px;
+			left: 2.5%;
+			padding: 0px;
+			width: 357px;
+			height: 34px;
+			.widget-content{
+				font-size: 30px;
+				text-align: center;
+				line-height: 34px;
+			}
+		}
+		#body_2{
+			top: 385px;
+			left: 2.5%;
+			padding: 0px;
+			width: 355px;
+			height: 52px;
+			.widget-content{
+				font-size: 24px;
+				text-align: center;
+				line-height: 26px;
+			}
+		}
+		#body_3{
+			top: 450px;
+			left: 5px;
+			width: 365px;
+			height: 181px;
+			.widget-content{
+				text-align: left;
+				font-size: 18px;
+				li{
+					margin-bottom: 7px;
+				}
+			}
+		}
+	}
+	#quang_ba{
+		height: 1523px;
+		#QB_1{
+			top: 20px;
+			left: 35px;
+			width: 300px;
+			height: 440px;
+			#spa_1{
+				top: 84px;
+				left: 1px;
+				width: 300px;
+				height: 360px;
+				#mo_ta{
+					top: 226px;
+					left: 35px;
+					padding: 0px;
+					width: 238px;
+					height: 140px;
+					.widget-content{
+						font-size: 14px;
+						text-align: center;
+					}
+				}
+				#tieu_de{
+					top: 170px;
+					left: 67px;
+					padding: 0px;
+					width: 169px;
+					height: 34px;
+					.widget-content{
+						font-size: 21px;
+						text-align: center;
+					}
+				}
+			}
+			#spa_2{
+				top: 0px;
+				left: 40px;
+				width: 220px;
+				height: 220px;
+			}
+		}
+		#QB_2{
+			top: 520px;
+			left: 35px;
+			width: 300px;
+			height: 440px;
+			#spa_21{
+				top: 84px;
+				left: 1px;
+				width: 300px;
+				height: 360px;
+				#mo_ta{
+					top: 226px;
+					left: 35px;
+					padding: 0px;
+					width: 238px;
+					height: 140px;
+					.widget-content{
+						font-size: 14px;
+						text-align: center;
+					}
+				}
+				#tieu_de{
+					top: 170px;
+					left: 67px;
+					padding: 0px;
+					width: 169px;
+					height: 34px;
+					.widget-content{
+						font-size: 21px;
+						text-align: center;
+					}
+				}
+			}
+			#spa_22{
+				top: 0px;
+				left: 40px;
+				width: 220px;
+				height: 220px;
+			}
+		}
+		#QB_3{
+			top: 1010px;
+			left: 35px;
+			width: 300px;
+			height: 440px;
+			#spa_31{
+				top: 84px;
+				left: 1px;
+				width: 300px;
+				height: 350px;
+				#mo_ta{
+					top: 226px;
+					left: 35px;
+					padding: 0px;
+					width: 238px;
+					height: 140px;
+					.widget-content{
+						font-size: 14px;
+						text-align: center;
+					}
+				}
+				#tieu_de{
+					top: 170px;
+					left: 67px;
+					padding: 0px;
+					width: 169px;
+					height: 34px;
+					.widget-content{
+						font-size: 21px;
+						text-align: center;
+					}
+				}
+			}
+			#spa_32{
+				top: 0px;
+				left: 40px;
+				width: 220px;
+				height: 220px;
+			}
+		}
+	}
+	#lien_he{
+		height: 640px;
+		#hinh_anh{
+			top: 20px;
+			left: 2.5%;
+			width: 355px;
+			height: 240px
+		}
+		#tieu_de{
+			top: 270px;
+			left: 0.2%;
+			width: 369px;
+			height: 74px;
+			.widget-content{		 
+				#tde_1{
+					top: 0px;
+					left: 0.1%;
+					padding:0px;
+					width: 365px;
+					height: 44px;
+					.widget-content{
+						font-size: 40px;
+						text-align: center;
+					}
+				}
+				#tde_2{
+					top: 40px;
+					left: 3%;
+					padding: 0px;
+					width: 356px;
+					height: 34px;
+					.widget-content{
+						font-size: 36px;
+						text-align: center;
+						line-height: 37px;
+					}
+				}
+			}
+		}
+		#mo_ta_head{
+			top: 354px;
+			left: 2.5%;
+			padding: 0px;
+			width: 348px;
+			height: 22px;	
+			.widget-content{
+				font-size: 16px;
+				text-align: left;
+			}
+		}
+		#lh_mo_ta{
+			top: 386px;
+			left: 2.5%;
+			width: 355px;
+			height: 190px;
+			.widget-content{
+				text-align: left;
+				font-size: 16px;
+				li{
+					margin-bottom: 5px;
+				}
+			}
+		}
+		#dat_cho{
+			top: 560px;
+			left: 25.5%;
+			padding: 0px;
+			width: 189px;
+			height: 40px;
+			.widget-content{
+				font-size: 16px;
+				text-align: center;
+				line-height: 40px;
+			}
+		}
+	}
+	#hieu_qua{
+		height: 978px;
+		#video{
+			top: 114px;
+			left: 2.5%;
+			width: 355px;
+			height: 177px;
+		}
+		#tieu_de{
+			top: 20px;
+			left: 2.5%;
+			width: 355px;
+			height: 58px;
+			.widget-content{
+				font-size: 36px;
+				text-align: center;
+				line-height: 42px; 
+			}
+		}
+		#mo_ta{
+			top: 302px;
+			left: 5%;
+			width: 335px;
+			height: 632px;
+			.widget-content{
+				#mta_1{
+					width:100%;
+					height: 100%;
+					.widget-content{	 	
+						h6::before {
+							position: absolute;
+							z-index: 1;
+							height: 22px;
+							width: 14px;	
+							line-height: 25px;	
+							left: 45%;
+							top: 0px;
+					    	// bottom: 12px;
+					    }
+					    h6{
+					    	font-size: 16px;
+					    	position: relative;
+					    	text-align: center;
+					    	width: 335px;
+					    	height: 91px;	
+					    	line-height: 91px;					
+					    	margin-top: 10px;
+					    }
+					}
+				}		
+			}
+		}
+		#ghi_chu{
+			top: 915px;
+			left: 2.5%;
+			width: 355px;
+			height: 34px;
+			.widget-content{
+				font-size: 15px;
+				text-align: center;
+			}
+		}
+	}
+	#cau_chuyen{
+		height: 840px;
+		#hinh_anh{
+			top: 20px;
+			left: 2.5%;
+			width: 355px;
+			height: 350px;
+		}
+		#chu_de{
+			top: 380px;
+			left: 2.5%;
+			padding: 0px;
+			width: 355px;
+			height: 40px;
+			.widget-content{
+				font-size: 30px;
+				text-align: left;
+			}
+		}
+		#line{
+			top: 430px;
+			left: 2.5%;
+			width: 355px;
+			height: 25px;
+		}
+		#tieu_de{
+			top: 465px;
+			left: 2.5%;
+			padding: 0px;
+			width: 355px;
+			height: 28px;
+			.widget-content{
+				font-size: 32px;
+				text-align: left;
+			}
+		}
+		#mo_ta{
+			top: 503px;
+			left: 2.5%;
+			width: 355px;
+			height: 160px;
+			.widget-content{
+
+			}
+		}
+	}
+	#footer{
+		height: 1458px;
+		#form_dk{
+			top: 20px;
+			left: 2.5%;
+			width: 95%;
+			height: 435px;
+			#head_dk{
+				text-align: center;
+				.widget-content{
+					font-size: 23px;
+				}
+			}
+			#body_dk{
+				top: 74px;
+				left: 0.1%;
+				width: 99%;
+				height: 361px;
+				.widget-content{
+					#form{
+						top: 31px;
+						left: 12.5%;
+						width: 286px;
+						height: 208px;
+						.widget{
+							font-size: 14px;
+							.widget-element{
+								left: 0px;
+								width: 286px;
+								height: 51px;
+							}
+							#ho_ten{
+								top: 0px;
+							}
+							#email{
+								top: 78px;
+							}
+							#sdt{
+								top:155px;
+							}
+						}
+					}
+					#button{
+						top: 276px;
+						left: 25%;
+						width: 188px;
+						height: 48px;
+						.lhe{
+							font-size: 15px;
+							text-align: center;	
+						}
+					}
+				}
+			}
+		}
+		#gioi_thieu{
+			top: 465px;
+			left: 12.5%;
+			width: 273px;
+			height: 395px;
+			#tieu_de{
+				.widget-content{
+					font-size: 36px;
+					text-align: left;
+				}
+			}
+			#mo_ta{
+				.widget-content{
+					font-size: 14px;
+					text-align: left;
+				}
+			}
+		}
+		#tieu_de_ck{
+			top: 870px;
+			left: 12.5%;
+			padding: 0px;
+			width: 285px;
+			height: 92px;
+			.widget-content{
+				font-size: 42px;
+				text-align: center;
+				line-height: 46px;
+			}
+		}
+		#mo_ta_ck{
+			top: 972px;
+			left: 12.5%;
+			width: 285px;
+			height: 100px;
+			.widget-content{
+				font-size: 16px;
+				text-align: center;
+				line-height: 25px;
+			}
+		}
+		#tieu_de_giam{
+			top: 1082px;
+			left: 12.5%;
+			width: 285px;
+			height: 46px;
+			.widget-content{
+				font-size: 40px;
+				text-align: center;
+				line-height: 46px;
+			}
+		}
+		#mo_ta_giam{
+			top: 1138px;
+			left: 12.5%;
+			width: 285px;
+			height: 72px;
+			.widget-content{
+				font-size: 30px;
+				text-align: center;
+				line-height: 36px;
+			}
+		}
+		#tieu_de_gia{
+			top: 1220px;
+			left: 12.5%;
+			width: 285px;
+			height: 24px;
+			.widget-content{
+				font-size: 14px;
+				text-align: center;
+			}
+		}
+		#gia{
+			top: 1254px;
+			left: 12.5%;
+			width: 285px;
+			height: 44px;
+			.widget-content{
+				font-size: 40px;
+				text-align: center;
+			}
+		}
+		#mo_ta_gia{
+			top: 1308px;
+			left: 12.5%;
+			width: 285px;
+			height: 72px;
+			.widget-content{
+				font-size: 30px;
+				text-align: center;
+				line-height: 36px;
+			}
+		}
+		#copyright{
+			top: 1390px;
+			left: 2.5%;
+			width: 355px;
+			height: 48px;
+			.widget-content{
+				font-size: 14px;
+				text-align: center;
+			}
+		}
+	}
+}
+@media (min-width: 960px){
+	.container{
+		// left: 200px;
+		width: 960px;
+		height: 100%;
+		margin: 0 auto;
+		padding: 0;
+		position: relative;
+	}
+}
+@media (max-width: 959px){
+	.container{
+		height: 100%;
+		padding: 0;
+		position: relative;
+	}
+}
